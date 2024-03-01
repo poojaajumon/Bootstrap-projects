@@ -1,0 +1,219 @@
+#myVideo { / This is to make the video appear behind everything else /
+    position: fixed;
+    z-index: -1000; / Z-Index is -1000 just to be safe /
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+  }
+  
+  .content { / This is for the content /
+    position: fixed;
+    z-index: 1; / This can be set to any number greater than -1000. /
+    bottom: 0;
+    align-items: center;
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    padding-left: 120px;
+  }
+  h1{
+    font-size: 70px;
+    font-weight: bold;
+  }
+  #book{
+    background-color: yellow;
+    font-size: 30px;
+    border: none;
+    font-weight: bold;
+    color: blue;
+    padding: 10px;
+  }
+  .kyobi,.nav-link{
+    font-weight: bold;
+  }
+  
+  .second{
+    position: relative;
+    
+   z-index: 2;
+   height: 500px;
+    
+  }
+  #hero{
+    height: 600px;
+  }
+  #third,#fourth,#para2{
+    font-size: 20px;
+    align-items: center;
+  }
+  yellow{
+    color: yellow;
+  }
+  .packages{
+    position: relative;
+   
+   z-index: 2;
+  
+   background-color: rgb(77, 167, 67); 
+   color: white;
+  }
+  .side3{
+    background-image: url(../images/background1.jpg) ;
+    background-size: cover;
+    height: 600px;
+    
+  }
+  .box{
+    width: 300px;
+    height: 250px;
+    border: 10px solid yellow;
+    background-color: #f1f1f1;
+    color: darkgreen;
+    text-align: center;
+    padding: 10px;
+    justify-content: center;
+    margin-top: 150px;
+    position: relative;
+    top: 150px;
+    left: 150px;
+  }
+  h2{
+    font-size: 25px;
+    font-weight: bold;
+    
+  }
+  .inquire{
+    font-size: 20px;
+  }
+  .winter{
+    position: relative;
+   
+   z-index: 3;
+   
+  
+  }
+  .part1{
+    background-image: url(../images/snow.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+  }
+  .part2{
+    background-image: url(../images/mountain.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+  }
+  .cards{
+    position: relative;
+   align-items: center;
+   z-index: 4;
+  padding-left: 50px;
+   background-color: rgb(67, 152, 167); 
+   color: white;
+   align-items: center;
+  
+  }
+  .card-body{
+    / This is for the content /
+      position: relative;
+      z-index: 5; / This can be set to any number greater than -1000. /
+      
+      align-items: center;
+      color: white;
+      background-color: darkolivegreen;
+    
+      
+    }
+    
+  
+  .card-img-top{
+    height: 250px;
+  }
+  .start{
+    font-size: 30px;
+    color: yellow;
+  }
+  
+  .five{
+    background-image: url(../images/5.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: aquamarine;
+    height: 600px;
+    z-index: 7;
+    position: relative;
+   
+   
+  }
+  .free,.four,.last{
+    padding-left: 70px;
+  }
+  .location{
+    z-index: 8;
+    position: relative;
+   
+    padding-left: 70px;
+    text-align: center;
+    padding: 30px;
+  }
+  #details{
+    font-size: 23px;
+  }
+  #fine{
+    font-size: 28px;
+  }
+  body{
+   padding: 0;
+   margin: 0;
+  }
+  
+  .side{
+    display: flex;
+    flex-direction: column;
+  }
+  .tra{
+    display: flex;
+  }
+  .para{
+    padding-left: 13px;
+  }
+  .mine{
+    padding-left: 53px;
+  }
+    
+  @media only screen and (max-width: 600px) {
+   #happy{
+    font-size: 30px;
+   }
+   #book{
+    font-size: 20px;
+   }
+   .content{
+   padding-left: 10px;
+   }
+   #head{
+    font-size: 30px;
+   }
+   .second{
+    height: 800px;
+   }
+   .hello{
+    padding-bottom: 25px;
+   }
+   .box{
+    top: 125px;
+    left: 31px;
+   }
+   .free,.last{
+    padding-left: 14px;
+   }
+   .final{
+    font-size: 50px;
+   }
+   .five{
+    height: 363px;
+   }
+  }
